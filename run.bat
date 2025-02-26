@@ -1,1 +1,0 @@
-start dedicated_launcher.exe -maxplayers 32 -game cstrike -console -port 27015 +map de_dust2
