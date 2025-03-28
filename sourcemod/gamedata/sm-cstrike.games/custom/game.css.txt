@@ -62,14 +62,14 @@
 			"SwitchTeam"
 			{
 				"library"	"server"
-				"windows"	"\x55\x8B\xEC\x81\xEC\x94\x00\x00\x00\x89\x4D\xFC"
+				"windows"	"\x55\x8B\xEC\x81\xEC\xC0\x00\x00\x00"
 				"linux"		"@_ZN9CCSPlayer10SwitchTeamEi"
 			}
 			//String: "#Alias_Not_Avail"
 			"HandleCommand_Buy_Internal"
 			{
 				"library"		"server"
-				"windows"		"\x55\x8B\xEC\x83\xEC\x28\x89\x4D\xF8\x6A\x00"
+				"windows"		"\x55\x8B\xEC\x83\xEC\x40\x89\x4D\xF8\x6A\x00"
 				"linux"			"@_ZN9CCSPlayer26HandleCommand_Buy_InternalEPKc"
 			}
 			"GetWeaponPrice"
@@ -89,7 +89,7 @@
 			"TerminateRound"
 			{
 				"library"		"server"
-				"windows"		"\x83\xEC\x24\x53\x55\x8B\x6C\x24\x34"
+				"windows"		"\x83\xEC\x24\x8B\x44\x24\x2C"
 				"linux"			"@_ZN12CCSGameRules14TerminateRoundEfi"
 			}
 			"GetTranslatedWeaponAlias"
@@ -129,11 +129,10 @@
 				"windows"	"\xA1\x2A\x2A\x2A\x2A\x56\x8B\xF1\x8B\x48\x30\x85\xC9\x74\x2A"
 				"linux"		"@_ZN12CCSGameRules13CheckWinLimitEv"
 			}
-			//[It doesn't seem to have changed]
 			"SetModelFromClass"
 			{
 				"library"	"server"
-				"windows"	"\x55\x8B\xEC\x83\xEC\x34\x89\x4D\xFC\x8B\x4D\xFC\xE8\x2A\x2A\x2A\x2A\x83\xF8\x02"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x5C\x89\x4D\xFC"
 				"linux"		"@_ZN9CCSPlayer17SetModelFromClassEv"
 			}
 		}
