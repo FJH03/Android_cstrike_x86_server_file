@@ -1,1 +1,1 @@
-## 针对source-engine-czero的相关修复
+> 针对 [CS零点行动起源](https://github.com/FJH03/source-engine-czero) 的插件平台修复内容
